@@ -1,9 +1,9 @@
-Origin: 帅帅小分队's Repo
-Label: 帅帅小分队
+Origin: Deon's Repo
+Label: Deon
 Suite: stable
 Version: 1.0
-Codename: 帅帅小分队
+Codename: Deon
 Architectures: iphoneos-arm
 Components: main
-Description: 帅帅小分队
+Description: Deon's Repo
 
