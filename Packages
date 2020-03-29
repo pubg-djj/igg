@@ -1,132 +1,80 @@
-Package: apt.deonrepo.net.7days-antirevoke
-Version: 0.0.2~fixbydeon
+Package: ModP
+Version: 2.0
 Architecture: iphoneos-arm
-Installed-Size: 688
+Maintainer: 水哥
+Installed-Size: 380
 Depends: mobilesubstrate
-Conflicts: netskao.antirevoke
-Filename: ./debs/apt.deonrepo.net.7days-antirevoke_0.0.2~fixbydeon_iphoneos-arm.deb
-Size: 214354
-MD5sum: 7685613a8d5c9fec5ef1b1cd3c70270c
-SHA1: 6990968499258dca3bbd54540178947d3057465c
-SHA256: 53bfb58978545ef0078cbdf92670adb2b602006bf769de83707bdbdfbd28e8c2
+Filename: ./debs/0330破解版gm.deb
+Size: 1303270
+MD5sum: 8a9b19119b7dbd3bd8bcc6b808958307
+SHA1: 5bac2aa850dbdfea9c87fdb33a60e213b652c909
+SHA256: f0cde6e90f840b2591d2432a41c4dd5d6e72e9af945722732623e89076f88015
 Section: Tweaks
-Description: 新版無視掉簽，基於180的 7Days - AntiRevoke修改，適配新系統。No more revocations anymore. This tweak consults 7Days - AntiRevoke
-Author: 180 & Deon
-Name: 7Days - AntiRevoke
+Homepage: https://t.me/zuw_L
+Description: 已破解
+Author: 水哥
+Name: 破解版GM3月30日
 
-Package: apt.deonrepo.net.dfu
-Version: 1.0
+Package: ShadowTrackerExtra
+Version: 0.17.0
 Architecture: iphoneos-arm
-Filename: ./debs/apt.deonrepo.net.dfu_1.0_iphoneos-arm.deb
-Size: 52790
-MD5sum: ded90e342c32f075ff4fb1c24948b468
-SHA1: 6ac6a85ff7186951fd34bfa673f8254d951fe86d
-SHA256: b76630fcec8ccc034a82e3246ea35843ce66b99056809b248961b80450f7f603
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/0330懒人插件.deb
+Size: 102628
+MD5sum: 0ee6c31b7e41a37d7081712cc600a319
+SHA1: b552c25d350726093010b4807a3c391961d930db
+SHA256: 794b4accebc080565033e9af4a4249304ff7c778d23a41e8c52517e795b73294
 Section: System
-Description: 僅限iPhone 4s與iPad 2安裝降級使用！！！其他的千萬不要安裝！！！出現問題後果自負
-Author: 红V
-Name: 進入降級DFU模式
-
-Package: apt.deonrepo.net.diatrusinstaller
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: zsh, firmware (>=12.2) | org.swift.libswift (>=5.0), mobilesubstrate
-Filename: ./debs/apt.deonrepo.net.diatrusinstaller_1.1_iphoneos-arm.deb
-Size: 7802510
-MD5sum: 012613acca883e515a7a8ed1511c7b96
-SHA1: 633e4b867ffdd7641a51d0dcf6118dd1291b8466
-SHA256: f7b907917db88cac4ba7f7b89c92032d54d02ec458764fdcd5f1f1c246fdd9c3
-Description: App to install Diatrus' Cydia fork, APT fork, and Sileo. This allows you to uninstall Cydia, use it alongside Sileo, or use another package manager entirely and remove both Cydia and Sileo. Jailbreak your jailbreak.現在已經被GetSileo代替，讓越獄設備同時有兩個越獄商店，安裝以後用root權限輸入如下命令run dpkg -i /Applications/DiatrusInstaller.app/debs/*最後清除緩存註銷，不懂的盡量不要安裝
-Author: Hayden Seay <me@diatr.us>
-Name: Diatrus Installer
-
-Package: apt.deonrepo.net.fixnetworkcn
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Deon
-Depends: firmware (>= 5.0)
-Filename: ./debs/apt.deonrepo.net.fixnetworkcn_1.0_iphoneos-arm.deb
-Size: 3244
-MD5sum: f12c01cc1db9d025731e188dc49b61ac
-SHA1: 348e69bdab0f4c87e274b3df6526a98145078801
-SHA256: b6d9b5e1a78330b5904f9de6f957bd7c100f06740a64736dbf2010ae03322790
-Section: Tweaks
 Priority: optional
-Description: Fix China Models Network修復中國大陸設備聯網（此插件只修復Cydia和Sileo）修復完成後推薦安裝Globalize
-Author: Deon
-Name: Fix Network CN
+Description: 国服&台服&国际服通用
+Author: 水哥
+Name: 懒人插件公开版
 
-Package: apt.deonrepo.net.httpsrepo
-Version: 1.1
+Package: com.kwtap.dylib
+Version: 0.17.0
 Architecture: iphoneos-arm
+Maintainer: 水哥
+Installed-Size: 348
 Depends: mobilesubstrate
-Filename: ./debs/apt.deonrepo.net.httpsrepo_1.1_iphoneos-arm.deb
-Size: 12664
-MD5sum: 8e52cad8eab8ddb32f6e216260843c2e
-SHA1: 1d62e9b26b86fc50f8892bf37e5d2b7aa2aeed34
-SHA256: 89cfa914c65f90b4232d6f0437a5d5fb5b2c810ecb7bf6c16c96bfd56a477d1b
+Filename: ./debs/0330黑天除草＋防封.deb
+Size: 811424
+MD5sum: d81b9996d04dba3f3387ebff2b86e058
+SHA1: fef100eafa5c3921132f8015f0fd8c1596e9ca8b
+SHA256: 929c43cd4d8b59ee63d1d34fb67275464d1d1098756357c13f9f6297f1f92a2f
 Section: Tweaks
-Description: 讓Cydia添加來源時默認以https://開頭，主要用於GetSileo裡面的Cydia，unc0ver自帶的Cydia請忽略。Change http:// to https:// when add a new repo in Cydia. Especially GetSileo’s Cydia. If you are already https://. Just ignore
-Author: Deon
-Name: Https Repo
+Homepage: kwtap
+Description: 国服&台服&国际服通用
+Author: 水哥
+Name: 黑天除草＋防封
 
-Package: apt.deonrepo.net.march
-Version: 1.1
+Package: com.pukgsky.lesevan
+Version: 0.17.0
 Architecture: iphoneos-arm
-Maintainer: Deon
-Installed-Size: 824
-Depends: mobilesubstrate, ws.hbang.common, net.limneos.libbulletin
-Filename: ./debs/apt.deonrepo.net.march_1.1_iphoneos-arm.deb
-Size: 217706
-MD5sum: 9b7334ee5721fce66b06a5aab124e337
-SHA1: 39954de68c96c28c64e1790876b4c1c54400aca1
-SHA256: 3055eebf26f5b0087c107e1853871cf113b04a95c34baf81d3ed5e03fb180442
-Section: System
-Description: 系統省電插件，支援繁體中文，簡體中文和英語。A tweak that can make your device use longer.  Support English , Chinese Traditional, and Chinese Simplified.
-Author: Deon
-Name: March
-
-Package: apt.deonrepo.net.respringhelper
-Version: 0.9~beta3
-Architecture: iphoneos-arm
-Maintainer: Deon
-Installed-Size: 296
+Maintainer: LesEvan
 Depends: mobilesubstrate
-Filename: ./debs/apt.deonrepo.net.respringhelper_0.9~beta3_iphoneos-arm.deb
-Size: 8782
-MD5sum: 804729807aa57eb482a0d18af787c790
-SHA1: 00b6f76685fd5ec0649cdb6a759559dce34db402
-SHA256: fbf36c0b8e435363af39e52f12bbe4486116f8d4c82873c1c74900608017e818
-Section: Tweaks
-Description: 註銷工具，在系統設定裡打開，支援繁體中文，簡體中文，和英語。 A tweak that can Respring easily in the Settings App. Support English, Chinese Traditional, and Chinese Simplified.
-Author: Deon
-Name: Respring Helper
+Filename: ./debs/0330蓝天.deb
+Size: 1321766
+MD5sum: 931cd8c940dc8312a828d3a006ad0f8b
+SHA1: e1b3d1960d3d742cd98cecb997fe5a56b357cb07
+SHA256: 572bd3853fab9d90c1f6f543dcda8addb26b96b931a8684455e91112e8b2de15
+Section: hack
+Description: 国服&台服&国际服通用
+Author: LesEvan
+Name: 蓝天
 
-Package: apt.deonrepo.net.sileocht
-Version: 1.0
+Package: com.zlwl.pubgm
+Version: 0.17.0
 Architecture: iphoneos-arm
-Maintainer: Deon
-Filename: ./debs/apt.deonrepo.net.sileocht_1.0_iphoneos-arm.deb
-Size: 5648
-MD5sum: 195abd3ad13fc7171145d873bd49766a
-SHA1: ccfe55399d0e210f4e74556f504caa6cbab372fc
-SHA256: f2423f3448d59a30cadbb74966078ddb1423ef384c47e711af79cb1184875d53
-Section: Localization
-Description: 針對 Sileo 加入繁體中文
-Author: Deon
-Name: Sileo 繁體中文化
-
-Package: com.deon.flyjb.tw
-Version: 1.0
-Architecture: iphoneos-arm
+Maintainer: 水哥
+Installed-Size: 862
 Depends: mobilesubstrate
-Filename: ./debs/com.deon.flyjb.tw_1.0_iphoneos-arm.deb
-Size: 2044
-MD5sum: df110f97c851321256a12b3cdc3cc569
-SHA1: e489a5765b8fe24ee7d03bd1d61e4f879ac2c8c9
-SHA256: d7d9fc2a5cf7a6528bf335b8511ffb1451c10075220e01d28cbe63604298965c
-Section: Localization
-Description: FlyJB 繁體中文包🇹🇼。FlyJB作者源：https://repo.xsf1re.kr/
-Name: FlyJB 繁體中文包
+Filename: ./debs/0330王爷高伤插件.deb
+Size: 3460612
+MD5sum: b2d884a8ceca1bf15b16343f541ba71d
+SHA1: e169a188d77a85a087e4713a90b112d03b8260f7
+SHA256: d631c8afac31b14466749db1e7683465140e507ee2551c3cc38f1ca0075c3bc1
+Section: hack
+Description: 国服&国际服通用
+Author: 水哥
+Name: 王爷高伤版插件
 
